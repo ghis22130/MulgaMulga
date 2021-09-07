@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF03FD8D26E7412600DB2B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF03FD8C26E7412600DB2B19 /* AppDelegate.swift */; };
+		FF03FD8F26E7412600DB2B19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF03FD8E26E7412600DB2B19 /* SceneDelegate.swift */; };
+		FF03FD9126E7412600DB2B19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF03FD9026E7412600DB2B19 /* ViewController.swift */; };
+		FF03FD9426E7412600DB2B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF03FD9226E7412600DB2B19 /* Main.storyboard */; };
+		FF03FD9626E7412900DB2B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF03FD9526E7412900DB2B19 /* Assets.xcassets */; };
+		FF03FD9926E7412900DB2B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF03FD9726E7412900DB2B19 /* LaunchScreen.storyboard */; };
+		FF03FDA426E7412A00DB2B19 /* MulgaMulgaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF03FDA326E7412A00DB2B19 /* MulgaMulgaTests.swift */; };
+		FF03FDAF26E7412A00DB2B19 /* MulgaMulgaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF03FDAE26E7412A00DB2B19 /* MulgaMulgaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF03FDA026E7412A00DB2B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF03FD8126E7412600DB2B19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF03FD8826E7412600DB2B19;
+			remoteInfo = MulgaMulga;
+		};
+		FF03FDAB26E7412A00DB2B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF03FD8126E7412600DB2B19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF03FD8826E7412600DB2B19;
+			remoteInfo = MulgaMulga;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF03FD8926E7412600DB2B19 /* MulgaMulga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MulgaMulga.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF03FD8C26E7412600DB2B19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF03FD8E26E7412600DB2B19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF03FD9026E7412600DB2B19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF03FD9326E7412600DB2B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF03FD9526E7412900DB2B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF03FD9826E7412900DB2B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF03FD9A26E7412A00DB2B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF03FD9F26E7412A00DB2B19 /* MulgaMulgaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MulgaMulgaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF03FDA326E7412A00DB2B19 /* MulgaMulgaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulgaMulgaTests.swift; sourceTree = "<group>"; };
+		FF03FDA526E7412A00DB2B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF03FDAA26E7412A00DB2B19 /* MulgaMulgaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MulgaMulgaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF03FDAE26E7412A00DB2B19 /* MulgaMulgaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MulgaMulgaUITests.swift; sourceTree = "<group>"; };
+		FF03FDB026E7412A00DB2B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF03FD8626E7412600DB2B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF03FD9C26E7412A00DB2B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF03FDA726E7412A00DB2B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF03FD8026E7412600DB2B19 = {
+			isa = PBXGroup;
+			children = (
+				FF03FD8B26E7412600DB2B19 /* MulgaMulga */,
+				FF03FDA226E7412A00DB2B19 /* MulgaMulgaTests */,
+				FF03FDAD26E7412A00DB2B19 /* MulgaMulgaUITests */,
+				FF03FD8A26E7412600DB2B19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF03FD8A26E7412600DB2B19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF03FD8926E7412600DB2B19 /* MulgaMulga.app */,
+				FF03FD9F26E7412A00DB2B19 /* MulgaMulgaTests.xctest */,
+				FF03FDAA26E7412A00DB2B19 /* MulgaMulgaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF03FD8B26E7412600DB2B19 /* MulgaMulga */ = {
+			isa = PBXGroup;
+			children = (
+				FF03FD8C26E7412600DB2B19 /* AppDelegate.swift */,
+				FF03FD8E26E7412600DB2B19 /* SceneDelegate.swift */,
+				FF03FD9026E7412600DB2B19 /* ViewController.swift */,
+				FF03FD9226E7412600DB2B19 /* Main.storyboard */,
+				FF03FD9526E7412900DB2B19 /* Assets.xcassets */,
+				FF03FD9726E7412900DB2B19 /* LaunchScreen.storyboard */,
+				FF03FD9A26E7412A00DB2B19 /* Info.plist */,
+			);
+			path = MulgaMulga;
+			sourceTree = "<group>";
+		};
+		FF03FDA226E7412A00DB2B19 /* MulgaMulgaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF03FDA326E7412A00DB2B19 /* MulgaMulgaTests.swift */,
+				FF03FDA526E7412A00DB2B19 /* Info.plist */,
+			);
+			path = MulgaMulgaTests;
+			sourceTree = "<group>";
+		};
+		FF03FDAD26E7412A00DB2B19 /* MulgaMulgaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF03FDAE26E7412A00DB2B19 /* MulgaMulgaUITests.swift */,
+				FF03FDB026E7412A00DB2B19 /* Info.plist */,
+			);
+			path = MulgaMulgaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF03FD8826E7412600DB2B19 /* MulgaMulga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF03FDB326E7412A00DB2B19 /* Build configuration list for PBXNativeTarget "MulgaMulga" */;
+			buildPhases = (
+				FF03FD8526E7412600DB2B19 /* Sources */,
+				FF03FD8626E7412600DB2B19 /* Frameworks */,
+				FF03FD8726E7412600DB2B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MulgaMulga;
+			productName = MulgaMulga;
+			productReference = FF03FD8926E7412600DB2B19 /* MulgaMulga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF03FD9E26E7412A00DB2B19 /* MulgaMulgaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF03FDB626E7412A00DB2B19 /* Build configuration list for PBXNativeTarget "MulgaMulgaTests" */;
+			buildPhases = (
+				FF03FD9B26E7412A00DB2B19 /* Sources */,
+				FF03FD9C26E7412A00DB2B19 /* Frameworks */,
+				FF03FD9D26E7412A00DB2B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF03FDA126E7412A00DB2B19 /* PBXTargetDependency */,
+			);
+			name = MulgaMulgaTests;
+			productName = MulgaMulgaTests;
+			productReference = FF03FD9F26E7412A00DB2B19 /* MulgaMulgaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF03FDA926E7412A00DB2B19 /* MulgaMulgaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF03FDB926E7412A00DB2B19 /* Build configuration list for PBXNativeTarget "MulgaMulgaUITests" */;
+			buildPhases = (
+				FF03FDA626E7412A00DB2B19 /* Sources */,
+				FF03FDA726E7412A00DB2B19 /* Frameworks */,
+				FF03FDA826E7412A00DB2B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF03FDAC26E7412A00DB2B19 /* PBXTargetDependency */,
+			);
+			name = MulgaMulgaUITests;
+			productName = MulgaMulgaUITests;
+			productReference = FF03FDAA26E7412A00DB2B19 /* MulgaMulgaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF03FD8126E7412600DB2B19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FF03FD8826E7412600DB2B19 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					FF03FD9E26E7412A00DB2B19 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FF03FD8826E7412600DB2B19;
+					};
+					FF03FDA926E7412A00DB2B19 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FF03FD8826E7412600DB2B19;
+					};
+				};
+			};
+			buildConfigurationList = FF03FD8426E7412600DB2B19 /* Build configuration list for PBXProject "MulgaMulga" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF03FD8026E7412600DB2B19;
+			productRefGroup = FF03FD8A26E7412600DB2B19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF03FD8826E7412600DB2B19 /* MulgaMulga */,
+				FF03FD9E26E7412A00DB2B19 /* MulgaMulgaTests */,
+				FF03FDA926E7412A00DB2B19 /* MulgaMulgaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF03FD8726E7412600DB2B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF03FD9926E7412900DB2B19 /* LaunchScreen.storyboard in Resources */,
+				FF03FD9626E7412900DB2B19 /* Assets.xcassets in Resources */,
+				FF03FD9426E7412600DB2B19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF03FD9D26E7412A00DB2B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF03FDA826E7412A00DB2B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF03FD8526E7412600DB2B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF03FD9126E7412600DB2B19 /* ViewController.swift in Sources */,
+				FF03FD8D26E7412600DB2B19 /* AppDelegate.swift in Sources */,
+				FF03FD8F26E7412600DB2B19 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF03FD9B26E7412A00DB2B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF03FDA426E7412A00DB2B19 /* MulgaMulgaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF03FDA626E7412A00DB2B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF03FDAF26E7412A00DB2B19 /* MulgaMulgaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF03FDA126E7412A00DB2B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF03FD8826E7412600DB2B19 /* MulgaMulga */;
+			targetProxy = FF03FDA026E7412A00DB2B19 /* PBXContainerItemProxy */;
+		};
+		FF03FDAC26E7412A00DB2B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF03FD8826E7412600DB2B19 /* MulgaMulga */;
+			targetProxy = FF03FDAB26E7412A00DB2B19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF03FD9226E7412600DB2B19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF03FD9326E7412600DB2B19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF03FD9726E7412900DB2B19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF03FD9826E7412900DB2B19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF03FDB126E7412A00DB2B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF03FDB226E7412A00DB2B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF03FDB426E7412A00DB2B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HB2J52X7V7;
+				INFOPLIST_FILE = MulgaMulga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dumba.MulgaMulga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF03FDB526E7412A00DB2B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HB2J52X7V7;
+				INFOPLIST_FILE = MulgaMulga/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dumba.MulgaMulga;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF03FDB726E7412A00DB2B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HB2J52X7V7;
+				INFOPLIST_FILE = MulgaMulgaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dumba.MulgaMulgaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MulgaMulga.app/MulgaMulga";
+			};
+			name = Debug;
+		};
+		FF03FDB826E7412A00DB2B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HB2J52X7V7;
+				INFOPLIST_FILE = MulgaMulgaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dumba.MulgaMulgaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MulgaMulga.app/MulgaMulga";
+			};
+			name = Release;
+		};
+		FF03FDBA26E7412A00DB2B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HB2J52X7V7;
+				INFOPLIST_FILE = MulgaMulgaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dumba.MulgaMulgaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MulgaMulga;
+			};
+			name = Debug;
+		};
+		FF03FDBB26E7412A00DB2B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HB2J52X7V7;
+				INFOPLIST_FILE = MulgaMulgaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Dumba.MulgaMulgaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MulgaMulga;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF03FD8426E7412600DB2B19 /* Build configuration list for PBXProject "MulgaMulga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF03FDB126E7412A00DB2B19 /* Debug */,
+				FF03FDB226E7412A00DB2B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF03FDB326E7412A00DB2B19 /* Build configuration list for PBXNativeTarget "MulgaMulga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF03FDB426E7412A00DB2B19 /* Debug */,
+				FF03FDB526E7412A00DB2B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF03FDB626E7412A00DB2B19 /* Build configuration list for PBXNativeTarget "MulgaMulgaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF03FDB726E7412A00DB2B19 /* Debug */,
+				FF03FDB826E7412A00DB2B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF03FDB926E7412A00DB2B19 /* Build configuration list for PBXNativeTarget "MulgaMulgaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF03FDBA26E7412A00DB2B19 /* Debug */,
+				FF03FDBB26E7412A00DB2B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF03FD8126E7412600DB2B19 /* Project object */;
+}
