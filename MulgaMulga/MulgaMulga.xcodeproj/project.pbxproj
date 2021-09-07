@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		FF03FD8D26E7412600DB2B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF03FD8C26E7412600DB2B19 /* AppDelegate.swift */; };
 		FF03FD8F26E7412600DB2B19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF03FD8E26E7412600DB2B19 /* SceneDelegate.swift */; };
-		FF03FD9126E7412600DB2B19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF03FD9026E7412600DB2B19 /* ViewController.swift */; };
+		FF03FD9126E7412600DB2B19 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF03FD9026E7412600DB2B19 /* HomeViewController.swift */; };
 		FF03FD9426E7412600DB2B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF03FD9226E7412600DB2B19 /* Main.storyboard */; };
 		FF03FD9626E7412900DB2B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF03FD9526E7412900DB2B19 /* Assets.xcassets */; };
 		FF03FD9926E7412900DB2B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF03FD9726E7412900DB2B19 /* LaunchScreen.storyboard */; };
@@ -38,7 +38,7 @@
 		FF03FD8926E7412600DB2B19 /* MulgaMulga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MulgaMulga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF03FD8C26E7412600DB2B19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF03FD8E26E7412600DB2B19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF03FD9026E7412600DB2B19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF03FD9026E7412600DB2B19 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FF03FD9326E7412600DB2B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF03FD9526E7412900DB2B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF03FD9826E7412900DB2B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			children = (
 				FF03FD8C26E7412600DB2B19 /* AppDelegate.swift */,
 				FF03FD8E26E7412600DB2B19 /* SceneDelegate.swift */,
-				FF03FD9026E7412600DB2B19 /* ViewController.swift */,
+				FF03FD9026E7412600DB2B19 /* HomeViewController.swift */,
 				FF03FD9226E7412600DB2B19 /* Main.storyboard */,
 				FF03FD9526E7412900DB2B19 /* Assets.xcassets */,
 				FF03FD9726E7412900DB2B19 /* LaunchScreen.storyboard */,
@@ -258,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF03FD9126E7412600DB2B19 /* ViewController.swift in Sources */,
+				FF03FD9126E7412600DB2B19 /* HomeViewController.swift in Sources */,
 				FF03FD8D26E7412600DB2B19 /* AppDelegate.swift in Sources */,
 				FF03FD8F26E7412600DB2B19 /* SceneDelegate.swift in Sources */,
 			);
