@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		FF03FD9926E7412900DB2B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF03FD9726E7412900DB2B19 /* LaunchScreen.storyboard */; };
 		FF03FDA426E7412A00DB2B19 /* MulgaMulgaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF03FDA326E7412A00DB2B19 /* MulgaMulgaTests.swift */; };
 		FF03FDAF26E7412A00DB2B19 /* MulgaMulgaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF03FDAE26E7412A00DB2B19 /* MulgaMulgaUITests.swift */; };
+		FFE9C2C826F08A0B00FCEAE9 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = FFE9C2C726F08A0B00FCEAE9 /* Then */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE9C2C826F08A0B00FCEAE9 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +146,9 @@
 			dependencies = (
 			);
 			name = MulgaMulga;
+			packageProductDependencies = (
+				FFE9C2C726F08A0B00FCEAE9 /* Then */,
+			);
 			productName = MulgaMulga;
 			productReference = FF03FD8926E7412600DB2B19 /* MulgaMulga.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = FF03FD8026E7412600DB2B19;
+			packageReferences = (
+				FFE9C2C626F08A0B00FCEAE9 /* XCRemoteSwiftPackageReference "Then" */,
+			);
 			productRefGroup = FF03FD8A26E7412600DB2B19 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -593,6 +601,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FFE9C2C626F08A0B00FCEAE9 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FFE9C2C726F08A0B00FCEAE9 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FFE9C2C626F08A0B00FCEAE9 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FF03FD8126E7412600DB2B19 /* Project object */;
 }
