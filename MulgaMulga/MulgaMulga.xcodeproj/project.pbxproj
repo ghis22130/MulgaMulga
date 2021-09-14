@@ -101,13 +101,10 @@
 		FF03FD8B26E7412600DB2B19 /* MulgaMulga */ = {
 			isa = PBXGroup;
 			children = (
+				FFE9C2C926F08A7500FCEAE9 /* SupportingFiles */,
 				FF03FD8C26E7412600DB2B19 /* AppDelegate.swift */,
 				FF03FD8E26E7412600DB2B19 /* SceneDelegate.swift */,
 				FF03FD9026E7412600DB2B19 /* HomeViewController.swift */,
-				FF03FD9226E7412600DB2B19 /* Main.storyboard */,
-				FF03FD9526E7412900DB2B19 /* Assets.xcassets */,
-				FF03FD9726E7412900DB2B19 /* LaunchScreen.storyboard */,
-				FF03FD9A26E7412A00DB2B19 /* Info.plist */,
 			);
 			path = MulgaMulga;
 			sourceTree = "<group>";
@@ -128,6 +125,17 @@
 				FF03FDB026E7412A00DB2B19 /* Info.plist */,
 			);
 			path = MulgaMulgaUITests;
+			sourceTree = "<group>";
+		};
+		FFE9C2C926F08A7500FCEAE9 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FF03FD9526E7412900DB2B19 /* Assets.xcassets */,
+				FF03FD9726E7412900DB2B19 /* LaunchScreen.storyboard */,
+				FF03FD9226E7412600DB2B19 /* Main.storyboard */,
+				FF03FD9A26E7412A00DB2B19 /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +370,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -422,6 +431,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -444,15 +454,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HB2J52X7V7;
-				INFOPLIST_FILE = MulgaMulga/Info.plist;
+				INFOPLIST_FILE = MulgaMulga/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Dumba.MulgaMulga;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,8 +476,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HB2J52X7V7;
-				INFOPLIST_FILE = MulgaMulga/Info.plist;
+				DEVELOPMENT_TEAM = B3PWYBKFUK;
+				INFOPLIST_FILE = MulgaMulga/SupportingFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
