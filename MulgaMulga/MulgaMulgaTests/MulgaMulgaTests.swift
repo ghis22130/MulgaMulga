@@ -18,16 +18,10 @@ class MulgaMulgaTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func test_EndPoinURL() throws {
+        let endPoint = EndPoint(type: .json, startIndex: 1, endIndex: 5, marketName: "하나로마트", guName: "중곡동")
+        let url = endPoint.url()
+        
+        XCTAssertEqual(url, "http://openapi.seoul.go.kr:8088/514f78706667686937326152654554/json/ListNecessariesPricesService/1/5/하나로마트/중곡동")
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }
