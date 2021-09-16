@@ -20,6 +20,11 @@
 		FFE9C2CF26F09DED00FCEAE9 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE9C2CE26F09DED00FCEAE9 /* EndPoint.swift */; };
 		FFE9C2D026F0A3D500FCEAE9 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE9C2CE26F09DED00FCEAE9 /* EndPoint.swift */; };
 		FFE9C2D426F2FEDC00FCEAE9 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE9C2D326F2FEDC00FCEAE9 /* NetworkService.swift */; };
+		FFE9C2D726F2FF4100FCEAE9 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FFE9C2D626F2FF4100FCEAE9 /* RxSwift */; };
+		FFE9C2D926F2FF4100FCEAE9 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = FFE9C2D826F2FF4100FCEAE9 /* RxTest */; };
+		FFE9C2DB26F2FF4100FCEAE9 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = FFE9C2DA26F2FF4100FCEAE9 /* RxRelay */; };
+		FFE9C2DD26F2FF4100FCEAE9 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = FFE9C2DC26F2FF4100FCEAE9 /* RxCocoa */; };
+		FFE9C2DF26F2FF4100FCEAE9 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = FFE9C2DE26F2FF4100FCEAE9 /* RxBlocking */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +69,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE9C2D726F2FF4100FCEAE9 /* RxSwift in Frameworks */,
+				FFE9C2DF26F2FF4100FCEAE9 /* RxBlocking in Frameworks */,
+				FFE9C2D926F2FF4100FCEAE9 /* RxTest in Frameworks */,
+				FFE9C2DD26F2FF4100FCEAE9 /* RxCocoa in Frameworks */,
+				FFE9C2DB26F2FF4100FCEAE9 /* RxRelay in Frameworks */,
 				FFE9C2C826F08A0B00FCEAE9 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -198,6 +208,11 @@
 			name = MulgaMulga;
 			packageProductDependencies = (
 				FFE9C2C726F08A0B00FCEAE9 /* Then */,
+				FFE9C2D626F2FF4100FCEAE9 /* RxSwift */,
+				FFE9C2D826F2FF4100FCEAE9 /* RxTest */,
+				FFE9C2DA26F2FF4100FCEAE9 /* RxRelay */,
+				FFE9C2DC26F2FF4100FCEAE9 /* RxCocoa */,
+				FFE9C2DE26F2FF4100FCEAE9 /* RxBlocking */,
 			);
 			productName = MulgaMulga;
 			productReference = FF03FD8926E7412600DB2B19 /* MulgaMulga.app */;
@@ -272,6 +287,7 @@
 			mainGroup = FF03FD8026E7412600DB2B19;
 			packageReferences = (
 				FFE9C2C626F08A0B00FCEAE9 /* XCRemoteSwiftPackageReference "Then" */,
+				FFE9C2D526F2FF4100FCEAE9 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = FF03FD8A26E7412600DB2B19 /* Products */;
 			projectDirPath = "";
@@ -669,6 +685,14 @@
 				minimumVersion = 2.7.0;
 			};
 		};
+		FFE9C2D526F2FF4100FCEAE9 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -676,6 +700,31 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FFE9C2C626F08A0B00FCEAE9 /* XCRemoteSwiftPackageReference "Then" */;
 			productName = Then;
+		};
+		FFE9C2D626F2FF4100FCEAE9 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FFE9C2D526F2FF4100FCEAE9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		FFE9C2D826F2FF4100FCEAE9 /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FFE9C2D526F2FF4100FCEAE9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+		FFE9C2DA26F2FF4100FCEAE9 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FFE9C2D526F2FF4100FCEAE9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		FFE9C2DC26F2FF4100FCEAE9 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FFE9C2D526F2FF4100FCEAE9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		FFE9C2DE26F2FF4100FCEAE9 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FFE9C2D526F2FF4100FCEAE9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
