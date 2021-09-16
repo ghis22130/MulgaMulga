@@ -7,10 +7,19 @@
 
 import Foundation
 
-struct ListNecessariesPricesService: Decodable {
+//Response -> Result -> DTO
+struct LNResponse: Decodable {
+    let lnResult: LNResult
+    
+    enum CodingKeys: String, CodingKey {
+        case lnResult = "ListNecessariesPricesService"
+    }
+}
+
+struct LNResult: Decodable {
     let listTotalCount: Int
     let result: ServiceResult
-    let row: ListNecessariesDTO
+    let row: [LNDTO]
     
     enum CodingKeys: String, CodingKey {
         case listTotalCount = "list_total_count"
@@ -29,7 +38,7 @@ struct ServiceResult: Decodable {
     }
 }
 
-struct ListNecessariesDTO: Decodable {
+struct LNDTO: Decodable {
     let dataID: Double
     let marketID: Double
     let marketName: String
@@ -40,9 +49,9 @@ struct ListNecessariesDTO: Decodable {
     let inspectionYearAndMonth: String
     let note: String
     let inspectionDate: String
-    let maretTypeCode: Double
+    let maretTypeCode: String
     let marketTypeName: String
-    let guCode: Double
+    let guCode: String
     let guName: String
     
     enum CodingKeys: String, CodingKey {
@@ -57,7 +66,7 @@ struct ListNecessariesDTO: Decodable {
         case note = "ADD_COL"
         case inspectionDate = "P_DATE"
         case maretTypeCode = "M_TYPE_CODE"
-        case marketTypeName = "M_TYPDE_NAME"
+        case marketTypeName = "M_TYPE_NAME"
         case guCode = "M_GU_CODE"
         case guName = "M_GU_NAME"
     }

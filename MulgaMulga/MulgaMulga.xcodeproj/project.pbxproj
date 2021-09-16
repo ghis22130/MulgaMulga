@@ -21,10 +21,12 @@
 		FFE9C2D026F0A3D500FCEAE9 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE9C2CE26F09DED00FCEAE9 /* EndPoint.swift */; };
 		FFE9C2D426F2FEDC00FCEAE9 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE9C2D326F2FEDC00FCEAE9 /* NetworkService.swift */; };
 		FFE9C2D726F2FF4100FCEAE9 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FFE9C2D626F2FF4100FCEAE9 /* RxSwift */; };
-		FFE9C2D926F2FF4100FCEAE9 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = FFE9C2D826F2FF4100FCEAE9 /* RxTest */; };
 		FFE9C2DB26F2FF4100FCEAE9 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = FFE9C2DA26F2FF4100FCEAE9 /* RxRelay */; };
 		FFE9C2DD26F2FF4100FCEAE9 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = FFE9C2DC26F2FF4100FCEAE9 /* RxCocoa */; };
 		FFE9C2DF26F2FF4100FCEAE9 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = FFE9C2DE26F2FF4100FCEAE9 /* RxBlocking */; };
+		FFE9C2E126F3054E00FCEAE9 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE9C2E026F3054E00FCEAE9 /* NetworkError.swift */; };
+		FFE9C2E326F3055500FCEAE9 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE9C2E226F3055500FCEAE9 /* Request.swift */; };
+		FFE9C2E526F3081100FCEAE9 /* NetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE9C2E426F3081100FCEAE9 /* NetworkTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,9 @@
 		FFE9C2CC26F0958600FCEAE9 /* ListNecessariesPriceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNecessariesPriceService.swift; sourceTree = "<group>"; };
 		FFE9C2CE26F09DED00FCEAE9 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 		FFE9C2D326F2FEDC00FCEAE9 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		FFE9C2E026F3054E00FCEAE9 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		FFE9C2E226F3055500FCEAE9 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		FFE9C2E426F3081100FCEAE9 /* NetworkTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +76,6 @@
 			files = (
 				FFE9C2D726F2FF4100FCEAE9 /* RxSwift in Frameworks */,
 				FFE9C2DF26F2FF4100FCEAE9 /* RxBlocking in Frameworks */,
-				FFE9C2D926F2FF4100FCEAE9 /* RxTest in Frameworks */,
 				FFE9C2DD26F2FF4100FCEAE9 /* RxCocoa in Frameworks */,
 				FFE9C2DB26F2FF4100FCEAE9 /* RxRelay in Frameworks */,
 				FFE9C2C826F08A0B00FCEAE9 /* Then in Frameworks */,
@@ -178,6 +182,9 @@
 				FFE9C2D226F2F8B000FCEAE9 /* DTO */,
 				FFE9C2CE26F09DED00FCEAE9 /* EndPoint.swift */,
 				FFE9C2D326F2FEDC00FCEAE9 /* NetworkService.swift */,
+				FFE9C2E026F3054E00FCEAE9 /* NetworkError.swift */,
+				FFE9C2E226F3055500FCEAE9 /* Request.swift */,
+				FFE9C2E426F3081100FCEAE9 /* NetworkTask.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -209,7 +216,6 @@
 			packageProductDependencies = (
 				FFE9C2C726F08A0B00FCEAE9 /* Then */,
 				FFE9C2D626F2FF4100FCEAE9 /* RxSwift */,
-				FFE9C2D826F2FF4100FCEAE9 /* RxTest */,
 				FFE9C2DA26F2FF4100FCEAE9 /* RxRelay */,
 				FFE9C2DC26F2FF4100FCEAE9 /* RxCocoa */,
 				FFE9C2DE26F2FF4100FCEAE9 /* RxBlocking */,
@@ -333,7 +339,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF03FD9126E7412600DB2B19 /* HomeViewController.swift in Sources */,
+				FFE9C2E326F3055500FCEAE9 /* Request.swift in Sources */,
+				FFE9C2E126F3054E00FCEAE9 /* NetworkError.swift in Sources */,
 				FF03FD8D26E7412600DB2B19 /* AppDelegate.swift in Sources */,
+				FFE9C2E526F3081100FCEAE9 /* NetworkTask.swift in Sources */,
 				FFE9C2CF26F09DED00FCEAE9 /* EndPoint.swift in Sources */,
 				FF03FD8F26E7412600DB2B19 /* SceneDelegate.swift in Sources */,
 				FFE9C2D426F2FEDC00FCEAE9 /* NetworkService.swift in Sources */,
@@ -705,11 +714,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FFE9C2D526F2FF4100FCEAE9 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
-		};
-		FFE9C2D826F2FF4100FCEAE9 /* RxTest */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FFE9C2D526F2FF4100FCEAE9 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxTest;
 		};
 		FFE9C2DA26F2FF4100FCEAE9 /* RxRelay */ = {
 			isa = XCSwiftPackageProductDependency;

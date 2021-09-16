@@ -7,9 +7,13 @@
 
 import Foundation
 
-struct EndPoint {
+protocol EndPoint {
+    func path() -> String
+}
+
+struct LNEndPoint: EndPoint {
     private let baseURL = "http://openapi.seoul.go.kr:8088"
-    private let key = "514f78706667686937326152654554"
+    private let key = ""
     private let type: RequestFileType
     private let service = "ListNecessariesPricesService"
     private let startIndex: String
@@ -31,7 +35,7 @@ struct EndPoint {
         self.guName = guName
     }
     
-    func url() -> String {
+    func path() -> String {
         let essential = [baseURL, key, type.rawValue, service, startIndex, endIndex].joined(separator: "/")
         let option = [marketName, productName, inspectionYearAndMonth, marketTypeName, guName].compactMap { $0 }.joined(separator: "/")
         
