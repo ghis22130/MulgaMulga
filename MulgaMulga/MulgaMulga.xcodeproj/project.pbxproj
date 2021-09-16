@@ -19,6 +19,7 @@
 		FFE9C2CD26F0958600FCEAE9 /* ListNecessariesPriceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE9C2CC26F0958600FCEAE9 /* ListNecessariesPriceService.swift */; };
 		FFE9C2CF26F09DED00FCEAE9 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE9C2CE26F09DED00FCEAE9 /* EndPoint.swift */; };
 		FFE9C2D026F0A3D500FCEAE9 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE9C2CE26F09DED00FCEAE9 /* EndPoint.swift */; };
+		FFE9C2D426F2FEDC00FCEAE9 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE9C2D326F2FEDC00FCEAE9 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		FF03FDB026E7412A00DB2B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFE9C2CC26F0958600FCEAE9 /* ListNecessariesPriceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNecessariesPriceService.swift; sourceTree = "<group>"; };
 		FFE9C2CE26F09DED00FCEAE9 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		FFE9C2D326F2FEDC00FCEAE9 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,11 +108,10 @@
 		FF03FD8B26E7412600DB2B19 /* MulgaMulga */ = {
 			isa = PBXGroup;
 			children = (
+				FFE9C2D126F2F89A00FCEAE9 /* Networking */,
 				FFE9C2CB26F0951300FCEAE9 /* Application */,
 				FFE9C2CA26F094FB00FCEAE9 /* HomeView */,
 				FFE9C2C926F08A7500FCEAE9 /* SupportingFiles */,
-				FFE9C2CC26F0958600FCEAE9 /* ListNecessariesPriceService.swift */,
-				FFE9C2CE26F09DED00FCEAE9 /* EndPoint.swift */,
 			);
 			path = MulgaMulga;
 			sourceTree = "<group>";
@@ -159,6 +160,24 @@
 				FF03FD8E26E7412600DB2B19 /* SceneDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		FFE9C2D126F2F89A00FCEAE9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FFE9C2D226F2F8B000FCEAE9 /* DTO */,
+				FFE9C2CE26F09DED00FCEAE9 /* EndPoint.swift */,
+				FFE9C2D326F2FEDC00FCEAE9 /* NetworkService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FFE9C2D226F2F8B000FCEAE9 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				FFE9C2CC26F0958600FCEAE9 /* ListNecessariesPriceService.swift */,
+			);
+			path = DTO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +320,7 @@
 				FF03FD8D26E7412600DB2B19 /* AppDelegate.swift in Sources */,
 				FFE9C2CF26F09DED00FCEAE9 /* EndPoint.swift in Sources */,
 				FF03FD8F26E7412600DB2B19 /* SceneDelegate.swift in Sources */,
+				FFE9C2D426F2FEDC00FCEAE9 /* NetworkService.swift in Sources */,
 				FFE9C2CD26F0958600FCEAE9 /* ListNecessariesPriceService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
